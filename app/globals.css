@@ -1,65 +1,37 @@
 @import "tailwindcss";
+@import "./components/json-renderer.css";
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background: #f6f7fb;
-  font-family: 'Segoe UI', Arial, sans-serif;
-  color: #222;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: #1e293b;
   margin: 0;
   padding: 0;
 }
 
-main {
-  max-width: 600px;
-  margin: 3rem auto 0 auto;
-  padding: 2rem;
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-}
-
-h1 {
-  margin-bottom: 1.2rem;
-}
-
 textarea {
   width: 100%;
-  border: 1px solid #d2d7df;
-  border-radius: 7px;
-  padding: 1em;
-  font-size: 1rem;
-  font-family: 'Fira Mono', monospace;
-  background: #f9fafc;
-  margin-bottom: 1em;
-  box-sizing: border-box;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 0.95rem;
+  font-family: 'Fira Mono', 'Courier New', monospace;
+  background: #f8fafc;
   resize: vertical;
+  transition: border-color 0.2s;
 }
 
-button {
-  font-size: 1rem;
-  background: #2563eb;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 0.6em 1.5em;
-  cursor: pointer;
-  margin-bottom: 1em;
-  transition: background 0.15s;
-}
-button:hover {
-  background: #16409a;
+textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  background: white;
 }
 
-.error {
-  color: #c02942;
-  font-weight: bold;
-  margin: 1em 0 0.5em 0;
-}
-
-pre {
-  background: #f3f4f6;
-  color: #222;
-  border-radius: 7px;
-  padding: 1em;
-  margin-top: 1.2em;
-  overflow-x: auto;
-  font-size: 0.97rem;
+textarea::placeholder {
+  color: #94a3b8;
 }

@@ -1,0 +1,1205 @@
+{
+  "pdfPath": "uploads/pdf-1763391652782-562796611.pdf",
+  "websiteUrl": "https://nyayanidhi.com/",
+  "timestamp": "2025-11-17T15:00:53.072Z",
+  "promptKeys": {
+    "scrapingPlan": "analyst_l1_scraping_plan_generator",
+    "questionnaire": "analyst_l3_v2_vc_senior_associate_json",
+    "analysisTaskExecutor": "analyst_l1_analysis_task_executor",
+    "opinionAgent": "analyst_l4_senior_opinion_agent"
+  },
+  "steps": {
+    "pdfParsing": {
+      "success": true,
+      "textLength": 9986
+    },
+    "initialScrape": {
+      "success": true,
+      "pagesScraped": 3
+    },
+    "scrapingPlan": {
+      "success": true,
+      "urlsToScrape": 6
+    },
+    "intelligentScrape": {
+      "success": true,
+      "pagesScraped": 6
+    },
+    "questionnaire": {
+      "success": true
+    },
+    "analysisExecution": {
+      "success": true,
+      "categoriesAnalyzed": 6
+    },
+    "opinionAnalysis": {
+      "success": true,
+      "stance": "Yes with Conditions",
+      "confidence": 65
+    }
+  },
+  "scrapingPlan": {
+    "urls": [
+      {
+        "url": "https://nyayanidhi.com/",
+        "importance": 100,
+        "reason": "Primary website of the company"
+      },
+      {
+        "url": "https://www.linkedin.com/company/nyayanidhi/",
+        "importance": 95,
+        "reason": "LinkedIn profile of the company"
+      },
+      {
+        "url": "https://www.linkedin.com/in/dinesh-babu-299415175",
+        "importance": 90,
+        "reason": "LinkedIn profile of Dinesh Babu, Tech Lead at Nyayanidhi"
+      },
+      {
+        "url": "https://www.oracle.com/",
+        "importance": 70,
+        "reason": "Previous employer of Dinesh Babu"
+      },
+      {
+        "url": "https://app.nyayanidhi.com/",
+        "importance": 80,
+        "reason": "Link to the app from the website"
+      },
+      {
+        "url": "https://twitter.com/nyayanidhi",
+        "importance": 60,
+        "reason": "Twitter page mentioned in the website"
+      }
+    ]
+  },
+  "questionnaire": {
+    "urls": [],
+    "company_summary": "Nyayanidhi is a legal-tech startup that leverages AI to automate legal research and drafting, and aims to make justice more accessible, faster, and cost-effective, particularly in the Indian legal system. They are building a digital litigation infrastructure for enterprises. Their platform is designed to augment General Counsels with AI agents and specialist advocates and shift from billable hours to billable outcomes.",
+    "tags": {
+      "stage": "early stage",
+      "sector": "legal tech",
+      "sub_sector": "AI-powered litigation",
+      "business_model": "B2B",
+      "customer_segment": "Enterprises, General Counsels",
+      "revenue_model": "Fixed rates on completion of work",
+      "geography": "India"
+    },
+    "analysis_plan": {
+      "market_and_opportunity": {
+        "tasks": [
+          "Research the size and growth rate of the Indian legal tech market.",
+          "Identify the specific pain points in the Indian legal system that Nyayanidhi is addressing.",
+          "Analyze the market opportunity for AI-powered litigation tools in India.",
+          "Research the regulatory landscape and potential challenges for legal tech companies in India."
+        ],
+        "notes": "Focus on the India-specific legal market dynamics. Given the inefficiencies mentioned in the founders' profiles, understanding the scope of these inefficiencies is critical."
+      },
+      "product_and_technology": {
+        "tasks": [
+          "Assess the technical feasibility and scalability of Nyayanidhi's AI-powered platform.",
+          "Investigate the types of AI models used for legal research and drafting.",
+          "Evaluate the accuracy and reliability of the AI algorithms.",
+          "Understand the data sources and data quality used to train the AI models.",
+          "Determine the level of integration with existing legal software and systems.",
+          "Analyze the platform's architecture and security measures.",
+          "Assess the platform's ability to handle multi-lingual and undigitised data sources"
+        ],
+        "notes": "Deep dive into the technology is crucial. Focus on AI's role and its defensibility. Given the claim of 10x productivity, the core tech behind it is important to analyse."
+      },
+      "traction_and_metrics": {
+        "tasks": [
+          "Obtain data on the number of enterprises using the Nyayanidhi platform.",
+          "Gather information on the cost savings and efficiency gains experienced by clients.",
+          "Track the number of cases processed and the success rate of AI-assisted litigation.",
+          "Analyze user engagement metrics and platform adoption rates.",
+          "Determine the customer acquisition cost (CAC) and customer lifetime value (CLTV).",
+          "If possible, compare the performance metrics against traditional litigation processes."
+        ],
+        "notes": "Traction is key at this stage. Any quantifiable data will be highly valuable. Since the company is relatively young, focus on early indicators of success and potential for growth."
+      },
+      "team_and_founders": {
+        "tasks": [
+          "Review the founders' backgrounds and experience in legal tech and AI.",
+          "Assess the team's ability to execute on their vision and scale the company.",
+          "Evaluate the advisory board and any key partnerships with legal professionals.",
+          "Research the team's previous entrepreneurial ventures and their outcomes.",
+          "Verify the skills mentioned by the founders on LinkedIn, especially in AI, legal domain and leadership.",
+          "Investigate the current team size and structure, and identify any key hires needed for future growth."
+        ],
+        "notes": "The team's experience in both law and technology is critical. Their understanding of the Indian legal system is also important."
+      },
+      "business_model_and_monetization": {
+        "tasks": [
+          "Analyze the pricing strategy and its competitiveness.",
+          "Understand the cost structure of the business and its scalability.",
+          "Evaluate the potential for recurring revenue streams.",
+          "Assess the potential for expansion into new legal domains or geographies.",
+          "Determine the long-term sustainability of the business model.",
+          "Compare the monetization approach with other legal tech companies."
+        ],
+        "notes": "Focus on the unit economics and potential for profitability. Understand how the fixed-rate billing model impacts revenue generation and predictability."
+      },
+      "competitive_landscape": {
+        "tasks": [
+          "Identify the major players in the Indian legal tech market.",
+          "Assess the competitive advantages and disadvantages of Nyayanidhi.",
+          "Analyze the pricing and features of competing products.",
+          "Determine the market share of key competitors.",
+          "Evaluate the barriers to entry in the legal tech market.",
+          "Identify any emerging trends or disruptive technologies in the legal space."
+        ],
+        "notes": "Map out the competitive landscape and identify any direct competitors offering similar AI-powered solutions. Understand the barriers to entry and potential for differentiation."
+      },
+      "risks_and_unknowns": {
+        "data_gaps": [
+          "Detailed financial projections and revenue forecasts.",
+          "Customer testimonials and case studies.",
+          "Specific information on the AI algorithms used and their performance metrics.",
+          "Data on user engagement and platform adoption rates."
+        ],
+        "founder_only_questions": [
+          "What are your key strategies for scaling the business and acquiring new customers?",
+          "How do you plan to address potential regulatory challenges and legal compliance issues?",
+          "What are your key performance indicators (KPIs) and how do you track progress?",
+          "What are your biggest challenges and how do you plan to overcome them?",
+          "How defensible is your AI technology?",
+          "What is the accuracy rate of your AI in legal tasks like drafting?",
+          "Can you share data on cost savings and efficiency gains experienced by your clients?"
+        ]
+      },
+      "internal_kb_references": {
+        "themes": [
+          "AI/ML",
+          "SaaS",
+          "Legal Tech",
+          "Indian Market Dynamics",
+          "B2B Sales and Marketing"
+        ]
+      },
+      "control_loop_additional_questions": {
+        "extra_questions": [
+          "What are the main drivers of customer acquisition?",
+          "What is the typical sales cycle length?",
+          "What is the average contract value?"
+        ],
+        "rationale": "These questions are designed to get a clearer picture of the sales process and customer economics, which are crucial for understanding the company's growth potential."
+      }
+    }
+  },
+  "analysisExecution": {
+    "timestamp": "2025-11-17T15:02:29.301Z",
+    "company_summary": "Nyayanidhi is a legal-tech startup that leverages AI to automate legal research and drafting, and aims to make justice more accessible, faster, and cost-effective, particularly in the Indian legal system. They are building a digital litigation infrastructure for enterprises. Their platform is designed to augment General Counsels with AI agents and specialist advocates and shift from billable hours to billable outcomes.",
+    "tags": {
+      "stage": "early stage",
+      "sector": "legal tech",
+      "sub_sector": "AI-powered litigation",
+      "business_model": "B2B",
+      "customer_segment": "Enterprises, General Counsels",
+      "revenue_model": "Fixed rates on completion of work",
+      "geography": "India"
+    },
+    "categories_analyzed": [
+      "market_and_opportunity",
+      "product_and_technology",
+      "traction_and_metrics",
+      "team_and_founders",
+      "business_model_and_monetization",
+      "competitive_landscape"
+    ],
+    "analysis_results": {
+      "market_and_opportunity": {
+        "category": "MARKET AND OPPORTUNITY",
+        "answers": [
+          {
+            "task": "Research the size and growth rate of the Indian legal tech market.",
+            "answer": "The Indian legal tech market is still emerging but is expected to see significant growth due to increasing digitization and the need for efficiency in the legal sector. Estimates vary, but some reports project a market size of hundreds of millions of dollars within the next 5-10 years. The growth rate is estimated to be in the double digits annually.",
+            "confidence": "medium",
+            "data_gaps": [
+              "Specific, verifiable market size and growth rate figures for the Indian legal tech market."
+            ],
+            "sources_used": []
+          },
+          {
+            "task": "Identify the specific pain points in the Indian legal system that Nyayanidhi is addressing.",
+            "answer": "Nyayanidhi is addressing several pain points: 1) Systemic inefficiencies that cause delays in the justice system, 2) High costs associated with legal services (aiming to make justice 10x cheaper), 3) Inefficiencies in legal research and drafting, 4) Challenges related to multi-lingual and undigitized data sources.",
+            "confidence": "high",
+            "data_gaps": [],
+            "sources_used": [
+              "Company Summary",
+              "Adithya LHS LinkedIn profile"
+            ]
+          },
+          {
+            "task": "Analyze the market opportunity for AI-powered litigation tools in India.",
+            "answer": "The market opportunity is substantial. The Indian legal system faces a significant backlog of cases and inefficiencies. AI-powered litigation tools can automate legal research, drafting, and case management, which can significantly improve efficiency and reduce costs. Nyayanidhi is building specifically for the needs in the Indian legal system, where a multi-lingual and undigitised data-source exists.",
+            "confidence": "medium",
+            "data_gaps": [],
+            "sources_used": [
+              "Company Summary",
+              "Adithya LHS LinkedIn profile"
+            ]
+          },
+          {
+            "task": "Research the regulatory landscape and potential challenges for legal tech companies in India.",
+            "answer": "The regulatory landscape is evolving. While there aren't specific regulations targeting legal tech directly, companies must comply with general data privacy laws (like the upcoming Digital Personal Data Protection Act) and regulations governing the legal profession. Potential challenges include: 1) Ensuring data security and privacy, 2) Navigating ethical considerations related to AI in legal practice, 3) Gaining acceptance and trust from legal professionals, 4) Compliance with court procedures.",
+            "confidence": "medium",
+            "data_gaps": [],
+            "sources_used": []
+          }
+        ],
+        "summary": "Nyayanidhi is operating in an emerging but high-potential market. Addressing pain points of the Indian legal system is key to their success. Navigating the regulatory landscape and gaining user adoption will be crucial challenges."
+      },
+      "product_and_technology": {
+        "category": "PRODUCT AND TECHNOLOGY",
+        "answers": [
+          {
+            "task": "Assess the technical feasibility and scalability of Nyayanidhi's AI-powered platform.",
+            "answer": "The technical feasibility appears high given the founders' experience in AI, backend engineering, and cloud deployment. Adithya LHS has a background in compliance tech and data mining, while Dinesh Babu has experience building scalable legal-tech systems using FastAPI, PostgreSQL, and AI-driven vector search. Chakshu Masagali's experience in optimizing manufacturing processes could translate to platform scalability. The website also mentions 'AI-native, vertically integrated' which suggests a focus on scalable design. However, specific details on the platform's architecture and scaling strategy require further investigation.",
+            "confidence": "medium",
+            "data_gaps": [
+              "Specific details of the platform's architecture",
+              "Details on scaling strategy and infrastructure",
+              "Load testing and performance metrics"
+            ],
+            "sources_used": [
+              "https://www.linkedin.com/in/dinesh-babu-299415175",
+              "https://www.linkedin.com/in/chakshumasagali",
+              "https://www.linkedin.com/in/adithya-lhs",
+              "https://nyayanidhi.com"
+            ]
+          },
+          {
+            "task": "Investigate the types of AI models used for legal research and drafting.",
+            "answer": "The platform leverages 'Legal x Indic AI' for legal research and drafting, and vector search. Dinesh Babu's profile mentions 'AI-driven vector search', but the exact types of AI models (e.g., transformers, NLP models) are not specified. Adithya LHS mentions dissecting a multi-lingual and undigitised data-source, implying the use of OCR or related tech. The platform aims to process thousands of litigation files weekly, meaning a scalable OCR solution is likely.",
+            "confidence": "low",
+            "data_gaps": [
+              "Specific types of AI models used (e.g., transformer models, NLP techniques)",
+              "Details on OCR technology for undigitised data",
+              "Custom training data and model architecture"
+            ],
+            "sources_used": [
+              "https://www.linkedin.com/in/dinesh-babu-299415175",
+              "https://www.linkedin.com/in/adithya-lhs",
+              "https://nyayanidhi.com"
+            ]
+          },
+          {
+            "task": "Evaluate the accuracy and reliability of the AI algorithms.",
+            "answer": "The deck states the AI supercharges litigators to achieve tenfold productivity. This statement implies high accuracy and reliability. However, no specific metrics (e.g., precision, recall, F1-score) are provided to quantify the accuracy of the AI algorithms, so this is difficult to evaluate from the available materials.",
+            "confidence": "low",
+            "data_gaps": [
+              "Accuracy metrics for legal research (e.g., precision, recall)",
+              "Accuracy metrics for legal drafting",
+              "Error rate of AI algorithms"
+            ],
+            "sources_used": [
+              "Pitch deck: Chakshu Masagali LinkedIn"
+            ]
+          },
+          {
+            "task": "Understand the data sources and data quality used to train the AI models.",
+            "answer": "Adithya LHS mentions dissecting a multi-lingual and undigitised data-source, implying the use of litigation files as a data source. The company focuses on the Indian legal system, so this is likely the primary data source. No details are provided on data quality, cleaning, or augmentation strategies.",
+            "confidence": "low",
+            "data_gaps": [
+              "Specific legal data sources used (e.g., court records, legal documents)",
+              "Data quality metrics",
+              "Data cleaning and pre-processing techniques",
+              "Multi-lingual data handling specifics"
+            ],
+            "sources_used": [
+              "https://www.linkedin.com/in/adithya-lhs"
+            ]
+          },
+          {
+            "task": "Determine the level of integration with existing legal software and systems.",
+            "answer": "The platform is described as a 'Digital Litigation Infrastructure for Enterprises' and 'Single Platform to manage legal requirements around all assets and liabilities', implying some degree of integration capability. However, the level of integration with specific legal software and systems is not detailed. The phrase “Built for Enterprises” does suggest some kind of integration capabilities.",
+            "confidence": "low",
+            "data_gaps": [
+              "Compatibility with popular legal software (e.g., Clio, MyCase)",
+              "API integrations and data exchange formats",
+              "Custom integration capabilities"
+            ],
+            "sources_used": [
+              "https://nyayanidhi.com"
+            ]
+          },
+          {
+            "task": "Analyze the platform's architecture and security measures.",
+            "answer": "Dinesh Babu mentions using FastAPI, PostgreSQL, and AI-driven vector search, providing some insight into the platform's backend. The company's focus on enterprise clients and data security interests of Adithya LHS suggests a priority on security measures. However, no specifics on security protocols, encryption, or compliance certifications are provided.",
+            "confidence": "low",
+            "data_gaps": [
+              "Platform architecture diagram",
+              "Security protocols and encryption methods",
+              "Compliance certifications (e.g., ISO 27001)",
+              "Data residency and access controls"
+            ],
+            "sources_used": [
+              "https://www.linkedin.com/in/dinesh-babu-299415175",
+              "https://www.linkedin.com/in/adithya-lhs"
+            ]
+          },
+          {
+            "task": "Assess the platform's ability to handle multi-lingual and undigitised data sources",
+            "answer": "Adithya LHS specifically mentions 'dissecting a multi-lingual and undigitised data-source', directly addressing the platform's ability to handle these data types. The use of 'Indic AI' suggests a focus on Indian languages. The platform's ability to process thousands of litigation files weekly suggests effective methods for handling undigitised data, presumably with OCR.",
+            "confidence": "medium",
+            "data_gaps": [
+              "Specific details about multi-lingual data support",
+              "Scalability metrics for handling undigitised data",
+              "Error rates and accuracy of multi-lingual support"
+            ],
+            "sources_used": [
+              "https://www.linkedin.com/in/adithya-lhs",
+              "https://nyayanidhi.com"
+            ]
+          }
+        ],
+        "summary": "Nyayanidhi appears to have a technically capable team and a platform designed to address challenges in the Indian legal system. The focus on AI and multi-lingual data suggests a competitive advantage. However, significant data gaps remain regarding the specifics of the AI models, data sources, accuracy, integration capabilities, security measures, and scalability. More detailed technical information is needed to fully assess the platform's potential."
+      },
+      "traction_and_metrics": {
+        "category": "TRACTION AND METRICS",
+        "answers": [
+          {
+            "task": "Obtain data on the number of enterprises using the Nyayanidhi platform.",
+            "answer": "I was unable to find the exact number of enterprises using the platform. The website states the platform is 'Built for Enterprises' to manage legal requirements around all assets and liabilities.",
+            "confidence": "low",
+            "data_gaps": [
+              "Specific number of enterprise clients is not available."
+            ],
+            "sources_used": [
+              "https://www.nyayanidhi.com/"
+            ]
+          },
+          {
+            "task": "Gather information on the cost savings and efficiency gains experienced by clients.",
+            "answer": "The website mentions that Nyayanidhi helps enterprises 'Shift From Billable Hours to Billable Outcomes'. The LinkedIn profile of Chakshu Masagali, Co-Founder, claims their technology supercharges litigators to achieve tenfold productivity at merely a fifth of the cost by automating routine tasks and redefining workflows.",
+            "confidence": "medium",
+            "data_gaps": [
+              "Specific cost savings in currency is not available.",
+              "Efficiency gains are expressed qualitatively ('tenfold productivity')."
+            ],
+            "sources_used": [
+              "https://www.nyayanidhi.com/",
+              "https://www.linkedin.com/in/chakshumasagali"
+            ]
+          },
+          {
+            "task": "Track the number of cases processed and the success rate of AI-assisted litigation.",
+            "answer": "Adithya LHS, CEO & Co-Founder, states on his LinkedIn profile, 'At Nyayanidhi, we're leveraging AI to reduce systemic inefficiencies that cause delays in India's justice system. Dissecting a multi-lingual and undigitised data-source, we're processing thousands of litigation files every week.'  I was unable to find a success rate for AI-assisted litigation.",
+            "confidence": "medium",
+            "data_gaps": [
+              "Specific success rate is not available.",
+              "Thousands of cases processed per week but the exact number is not available."
+            ],
+            "sources_used": [
+              "https://www.linkedin.com/in/adithya-lhs"
+            ]
+          },
+          {
+            "task": "Analyze user engagement metrics and platform adoption rates.",
+            "answer": "I was unable to find specific user engagement metrics or platform adoption rates.",
+            "confidence": "low",
+            "data_gaps": [
+              "Specific engagement metrics and adoption rates are not available."
+            ],
+            "sources_used": []
+          },
+          {
+            "task": "Determine the customer acquisition cost (CAC) and customer lifetime value (CLTV).",
+            "answer": "I was unable to find information on customer acquisition cost (CAC) or customer lifetime value (CLTV).",
+            "confidence": "low",
+            "data_gaps": [
+              "CAC and CLTV data are not available."
+            ],
+            "sources_used": []
+          },
+          {
+            "task": "If possible, compare the performance metrics against traditional litigation processes.",
+            "answer": "I was unable to find a direct comparison of performance metrics against traditional litigation processes. The scraped website and LinkedIn profiles suggest improved efficiency and cost reduction, but lack concrete comparative data.",
+            "confidence": "low",
+            "data_gaps": [
+              "Direct comparative performance metrics are not available."
+            ],
+            "sources_used": [
+              "https://www.nyayanidhi.com/",
+              "https://www.linkedin.com/in/chakshumasagali",
+              "https://www.linkedin.com/in/adithya-lhs"
+            ]
+          }
+        ],
+        "summary": "Nyayanidhi's website and founder profiles indicate a focus on AI-powered legal solutions for enterprises, aiming to increase efficiency, reduce costs, and process a high volume of cases. I was unable to find quantitative data on the number of enterprise users, specific cost savings, success rates, engagement metrics, customer acquisition cost, customer lifetime value, or comparisons against traditional litigation processes."
+      },
+      "team_and_founders": {
+        "category": "TEAM AND FOUNDERS",
+        "answers": [
+          {
+            "task": "Review the founders' backgrounds and experience in legal tech and AI.",
+            "answer": "The founders have a mix of experience. Dinesh Babu has a background in backend engineering and AI, with experience at Oracle. Chakshu Masagali has experience in business, operations, and product development, with entrepreneurial ventures. Adithya LHS has experience in compliance tech, policy, and AI.",
+            "confidence": "high",
+            "sources_used": [
+              "LinkedIn profiles of Dinesh Babu, Chakshu Masagali, and Adithya LHS (provided in the document)"
+            ]
+          },
+          {
+            "task": "Assess the team's ability to execute on their vision and scale the company.",
+            "answer": "The team's ability to execute is difficult to assess definitively without more data. Dinesh's technical skills are relevant, and Chakshu's entrepreneurial experience could be valuable. Adithya's policy background is a plus, but details are missing.",
+            "confidence": "medium",
+            "data_gaps": [
+              "Need more information on the team's specific roles and responsibilities.",
+              "Require details on their past successes and failures in scaling ventures."
+            ],
+            "sources_used": [
+              "LinkedIn profiles of Dinesh Babu, Chakshu Masagali, and Adithya LHS (provided in the document)",
+              "Company Summary (provided in the document)"
+            ]
+          },
+          {
+            "task": "Evaluate the advisory board and any key partnerships with legal professionals.",
+            "answer": "There is no mention of an advisory board or key partnerships with legal professionals in the provided document.",
+            "confidence": "low",
+            "data_gaps": [
+              "Need information on advisory board members.",
+              "Require details on partnerships with legal professionals."
+            ],
+            "sources_used": []
+          },
+          {
+            "task": "Research the team's previous entrepreneurial ventures and their outcomes.",
+            "answer": "Chakshu co-founded Fastly enterprises (January 2022 - July 2023) and founded What the froot (August 2020 - October 2022). Adithya was CEO of Psup (July 2021 - October 2023). The outcomes of these ventures are not detailed in the provided text.",
+            "confidence": "medium",
+            "data_gaps": [
+              "Need details on the success or failure of Fastly enterprises, What the froot and Psup.  Specific metrics (revenue, customer base, etc.) are needed."
+            ],
+            "sources_used": [
+              "LinkedIn profiles of Chakshu Masagali and Adithya LHS (provided in the document)"
+            ]
+          },
+          {
+            "task": "Verify the skills mentioned by the founders on LinkedIn, especially in AI, legal domain and leadership.",
+            "answer": "Dinesh lists Deep Learning, Image Processing, and Python. Adithya lists Data Science and Machine Learning. Chakshu lists Lean Manufacturing, Lean Six Sigma, and Inventory Management which are not directly related to AI or the legal domain, but may be useful for the business side. Their self-described skills can only be verified if corroborated via separate due diligence.",
+            "confidence": "medium",
+            "sources_used": [
+              "LinkedIn profiles of Dinesh Babu, Chakshu Masagali, and Adithya LHS (provided in the document)"
+            ]
+          },
+          {
+            "task": "Investigate the current team size and structure, and identify any key hires needed for future growth.",
+            "answer": "The provided information does not specify the current team size beyond the founders. It's difficult to assess key hires needed without more understanding of the company's operational plan.",
+            "confidence": "low",
+            "data_gaps": [
+              "Need information on the current team size and structure.",
+              "Require details on the company's operational plan and future growth strategy to identify key hires."
+            ],
+            "sources_used": []
+          }
+        ],
+        "summary": "The founding team possesses a mix of technical, business, and policy experience. However, further details on the success of prior ventures, the specific roles and responsibilities within Nyayanidhi, the advisory board, and the current team size are needed for a comprehensive assessment."
+      },
+      "business_model_and_monetization": {
+        "category": "BUSINESS MODEL AND MONETIZATION",
+        "answers": [
+          {
+            "task": "Analyze the pricing strategy and its competitiveness.",
+            "answer": "Nyayanidhi uses a fixed-rate billing model upon completion of work. The website highlights this as shifting from billable hours to billable outcomes, aiming for transparent processes.  Competitiveness is implied by stating AI agents and specialist advocates help manage business risks and redefining workflows results in unparalleled efficiency and precision in legal practice but there is no direct evidence to compare pricing strategies.",
+            "confidence": "medium",
+            "sources_used": [
+              "https://www.nyayanidhi.com",
+              "PDF Deck Content"
+            ]
+          },
+          {
+            "task": "Understand the cost structure of the business and its scalability.",
+            "answer": "The provided documents do not contain enough information to fully understand the cost structure. The pitch deck does mention using AI to achieve tenfold productivity at a fifth of the cost, implying automation reduces operational expenses. The company is building scalable legal-tech systems using FastAPI, PostgreSQL, and AI-driven vector search and improving efficiency by over 60%.",
+            "confidence": "low",
+            "data_gaps": [
+              "Detailed breakdown of costs (infrastructure, personnel, AI development).",
+              "Specific scalability metrics and how they are achieved."
+            ],
+            "sources_used": [
+              "PDF Deck Content",
+              "https://www.nyayanidhi.com"
+            ]
+          },
+          {
+            "task": "Evaluate the potential for recurring revenue streams.",
+            "answer": "The current fixed-rate model suggests that recurring revenue is dependent on repeat business. The documents do not describe any subscription or retainer-based services.  Long-term sustainability could involve productizing services or bundling them into subscription offerings.",
+            "confidence": "low",
+            "data_gaps": [
+              "Information on customer retention rates.",
+              "Plans for subscription or other recurring revenue models."
+            ],
+            "sources_used": [
+              "PDF Deck Content",
+              "https://www.nyayanidhi.com"
+            ]
+          },
+          {
+            "task": "Assess the potential for expansion into new legal domains or geographies.",
+            "answer": "The company is focused on the Indian legal system using Legal x Indic AI. The company has stated that they want to reform India's Litigation/Judicial System. Expansion into other geographies or legal domains isn't directly mentioned in the provided materials.",
+            "confidence": "low",
+            "data_gaps": [
+              "Long-term strategic plans for geographic or legal domain expansion.",
+              "Current limitations that restrict expansion."
+            ],
+            "sources_used": [
+              "PDF Deck Content",
+              "https://www.nyayanidhi.com"
+            ]
+          },
+          {
+            "task": "Determine the long-term sustainability of the business model.",
+            "answer": "Sustainability depends on factors like client acquisition, AI efficacy, and competition. The business model focuses on shifting from billable hours to outcomes, potentially increasing value and attracting customers. Success in litigation is hard to predict. Further information on customer acquisition cost (CAC) and lifetime value (LTV) would be very useful to better understand the long-term sustainability of the business model.",
+            "confidence": "low",
+            "data_gaps": [
+              "CAC and LTV data.",
+              "Competitive landscape analysis.",
+              "Scalability constraints."
+            ],
+            "sources_used": [
+              "PDF Deck Content",
+              "https://www.nyayanidhi.com"
+            ]
+          },
+          {
+            "task": "Compare the monetization approach with other legal tech companies.",
+            "answer": "The provided documents do not offer a comparative analysis. The company's fixed-rate billing is highlighted, but information is needed on prevailing models among legal tech companies to assess its differentiation. Legal tech companies use a variety of monetization strategies, which include project-based fees, retainers, subscriptions, and usage-based billing.",
+            "confidence": "low",
+            "data_gaps": [
+              "Analysis of competitive monetization models.",
+              "Specific benefits of the fixed-rate model versus alternatives."
+            ],
+            "sources_used": [
+              "PDF Deck Content",
+              "https://www.nyayanidhi.com"
+            ]
+          }
+        ],
+        "summary": "Nyayanidhi is leveraging AI in the Indian legal tech space, offering fixed-rate billing.  Sustainability hinges on scalability and competition within legal tech. Further details on cost structure, revenue streams, and expansion plans are needed."
+      },
+      "competitive_landscape": {
+        "category": "COMPETITIVE LANDSCAPE",
+        "answers": [
+          {
+            "task": "Identify the major players in the Indian legal tech market.",
+            "answer": "Identifying the major players in the Indian legal tech market requires comprehensive market research which is outside the scope of the provided documents. However, based on the available information, it can be inferred that Nyayanidhi is an emerging player.",
+            "confidence": "low",
+            "data_gaps": [
+              "Comprehensive market research data on the Indian legal tech market is needed to identify major players."
+            ],
+            "sources_used": []
+          },
+          {
+            "task": "Assess the competitive advantages and disadvantages of Nyayanidhi.",
+            "answer": "Competitive Advantages: AI-powered solutions for legal research and drafting, focus on enterprises and general counsels, fixed-rate billing on completion of work, and litigation centric AI-agents and specialist advocates.\n\nCompetitive Disadvantages:  As an early-stage startup, Nyayanidhi may have limited resources, brand recognition, and market share compared to established players.",
+            "confidence": "medium",
+            "data_gaps": [],
+            "sources_used": [
+              "Nyayanidhi website content",
+              "PDF Deck Content",
+              "Company Tags"
+            ]
+          },
+          {
+            "task": "Analyze the pricing and features of competing products.",
+            "answer": "Analyzing the pricing and features of competing products requires a detailed competitive analysis, which is outside the scope of the provided documents. More information on competitors is needed to answer this question.",
+            "confidence": "low",
+            "data_gaps": [
+              "Data on pricing and features of competing legal tech products."
+            ],
+            "sources_used": []
+          },
+          {
+            "task": "Determine the market share of key competitors.",
+            "answer": "Determining the market share of key competitors requires market research data which is outside the scope of the provided documents. More information is needed to answer this question.",
+            "confidence": "low",
+            "data_gaps": [
+              "Market share data of competitors in the Indian legal tech market."
+            ],
+            "sources_used": []
+          },
+          {
+            "task": "Evaluate the barriers to entry in the legal tech market.",
+            "answer": "Barriers to entry in the legal tech market include: regulatory compliance, difficulty in acquiring legal data and translating it into useable AI models, resistance from traditional legal professionals, the need for significant investment in technology and talent, and building trust with legal clients.",
+            "confidence": "medium",
+            "data_gaps": [],
+            "sources_used": []
+          },
+          {
+            "task": "Identify any emerging trends or disruptive technologies in the legal space.",
+            "answer": "Emerging trends in the legal space include the rise of AI-powered legal solutions, increased focus on legal process automation, and the shift towards digital litigation infrastructure.",
+            "confidence": "medium",
+            "data_gaps": [],
+            "sources_used": [
+              "Nyayanidhi website content",
+              "PDF Deck Content"
+            ]
+          }
+        ],
+        "summary": "Nyayanidhi is an early-stage legal tech startup in India focusing on AI-powered solutions for enterprises and general counsels. While specific competitive information like market share and detailed pricing comparisons are not available, the company's AI-driven approach and focus on fixed-rate billing models could provide a competitive edge. Barriers to entry include regulatory hurdles, technology investment, and gaining trust in the legal community."
+      }
+    },
+    "risks_and_unknowns": {
+      "data_gaps": [
+        "Detailed financial projections and revenue forecasts.",
+        "Customer testimonials and case studies.",
+        "Specific information on the AI algorithms used and their performance metrics.",
+        "Data on user engagement and platform adoption rates."
+      ],
+      "founder_only_questions": [
+        "What are your key strategies for scaling the business and acquiring new customers?",
+        "How do you plan to address potential regulatory challenges and legal compliance issues?",
+        "What are your key performance indicators (KPIs) and how do you track progress?",
+        "What are your biggest challenges and how do you plan to overcome them?",
+        "How defensible is your AI technology?",
+        "What is the accuracy rate of your AI in legal tasks like drafting?",
+        "Can you share data on cost savings and efficiency gains experienced by your clients?"
+      ]
+    },
+    "internal_kb_references": {
+      "themes": [
+        "AI/ML",
+        "SaaS",
+        "Legal Tech",
+        "Indian Market Dynamics",
+        "B2B Sales and Marketing"
+      ]
+    },
+    "control_loop_questions": {
+      "extra_questions": [
+        "What are the main drivers of customer acquisition?",
+        "What is the typical sales cycle length?",
+        "What is the average contract value?"
+      ],
+      "rationale": "These questions are designed to get a clearer picture of the sales process and customer economics, which are crucial for understanding the company's growth potential."
+    }
+  },
+  "opinionAnalysis": {
+    "timestamp": "2025-11-17T15:02:49.079Z",
+    "opinion": {
+      "stance": "Yes with Conditions",
+      "stance_justification": "Nyayanidhi presents a compelling opportunity to address inefficiencies in the Indian legal system using AI. The founding team possesses relevant experience, and the focus on enterprises and fixed-rate billing is attractive. However, significant data gaps regarding key metrics (CAC, LTV), AI accuracy, and scalability need to be addressed before proceeding to a term sheet.",
+      "supporting_reasons": [
+        {
+          "rank": 1,
+          "reason": "Focus on a large and underserved market: the Indian legal system faces significant inefficiencies and a large backlog of cases.",
+          "evidence": [
+            {
+              "source_type": "L1",
+              "identifier": "market_and_opportunity",
+              "excerpt": "The Indian legal system faces a significant backlog of cases and inefficiencies. AI-powered litigation tools can automate legal research, drafting, and case management, which can significantly improve efficiency and reduce costs."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "reason": "Founding team combines relevant AI/tech and legal experience.",
+          "evidence": [
+            {
+              "source_type": "L1",
+              "identifier": "team_and_founders",
+              "excerpt": "The founders have a mix of experience. Dinesh Babu has a background in backend engineering and AI, with experience at Oracle. Chakshu Masagali has experience in business, operations, and product development, with entrepreneurial ventures. Adithya LHS has experience in compliance tech, policy, and AI."
+            },
+            {
+              "source_type": "pitch_deck",
+              "identifier": "Dinesh Babu LinkedIn",
+              "excerpt": "Dinesh Babu: Tech Lead, Nyayanidhi | Actor | Ex-Oracle... building scalable legal-tech systems using FastAPI, PostgreSQL, and AI-driven vector search."
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "reason": "Potential for significant cost savings and efficiency gains for enterprises.",
+          "evidence": [
+            {
+              "source_type": "L1",
+              "identifier": "traction_and_metrics",
+              "excerpt": "The LinkedIn profile of Chakshu Masagali, Co-Founder, claims their technology supercharges litigators to achieve tenfold productivity at merely a fifth of the cost by automating routine tasks and redefining workflows."
+            },
+            {
+              "source_type": "scraped_url",
+              "identifier": "https://www.nyayanidhi.com",
+              "excerpt": "Shift From Billable Hours to Billable Outcomes: Transparent processes where our partner advocates bill fixed rates on completion of work."
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "reason": "Platform handles multi-lingual and undigitised data, crucial for the Indian legal context.",
+          "evidence": [
+            {
+              "source_type": "L1",
+              "identifier": "product_and_technology",
+              "excerpt": "Adithya LHS specifically mentions 'dissecting a multi-lingual and undigitised data-source', directly addressing the platform's ability to handle these data types."
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "reason": "Focus on AI-native and vertically integrated solutions.",
+          "evidence": [
+            {
+              "source_type": "scraped_url",
+              "identifier": "https://www.nyayanidhi.com",
+              "excerpt": "AI-native, vertically integrated: Engage specialist advocates working with AI to manage business risks."
+            }
+          ]
+        }
+      ],
+      "counterarguments": [
+        {
+          "rank": 1,
+          "risk": "Lack of concrete data on key performance indicators (CAC, LTV, AI accuracy).",
+          "severity": "critical",
+          "evidence": [
+            {
+              "source_type": "L1",
+              "identifier": "traction_and_metrics",
+              "excerpt": "I was unable to find information on customer acquisition cost (CAC) or customer lifetime value (CLTV)."
+            },
+            {
+              "source_type": "L1",
+              "identifier": "product_and_technology",
+              "excerpt": "No specific metrics (e.g., precision, recall, F1-score) are provided to quantify the accuracy of the AI algorithms..."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "risk": "Limited information about the AI models, data sources, and security measures.",
+          "severity": "high",
+          "evidence": [
+            {
+              "source_type": "L1",
+              "identifier": "product_and_technology",
+              "excerpt": "The exact types of AI models (e.g., transformers, NLP models) are not specified... No specifics on security protocols, encryption, or compliance certifications are provided."
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "risk": "Unclear competitive landscape and barriers to entry.",
+          "severity": "medium",
+          "evidence": [
+            {
+              "source_type": "L1",
+              "identifier": "competitive_landscape",
+              "excerpt": "Identifying the major players in the Indian legal tech market requires comprehensive market research which is outside the scope of the provided documents."
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "risk": "Fixed-rate billing model might limit recurring revenue.",
+          "severity": "medium",
+          "evidence": [
+            {
+              "source_type": "L1",
+              "identifier": "business_model_and_monetization",
+              "excerpt": "The current fixed-rate model suggests that recurring revenue is dependent on repeat business. The documents do not describe any subscription or retainer-based services."
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "risk": "Dependence on repeat business and lack of comparative advantage against existing market players.",
+          "severity": "low",
+          "evidence": [
+            {
+              "source_type": "L1",
+              "identifier": "business_model_and_monetization",
+              "excerpt": "The current fixed-rate model suggests that recurring revenue is dependent on repeat business."
+            },
+            {
+              "source_type": "L1",
+              "identifier": "competitive_landscape",
+              "excerpt": "Competitive Disadvantages:  As an early-stage startup, Nyayanidhi may have limited resources, brand recognition, and market share compared to established players."
+            }
+          ]
+        }
+      ],
+      "sensitivity_analysis": {
+        "key_factors": [
+          "Customer Acquisition Cost (CAC)",
+          "AI accuracy rate in legal tasks (drafting, research)",
+          "Customer Lifetime Value (LTV)"
+        ],
+        "flip_scenario": "If Nyayanidhi can demonstrate a CAC below $X, an AI accuracy rate above 90%, and an LTV significantly greater than the CAC, the stance flips to 'Strong Yes'."
+      },
+      "next_steps": {
+        "founders_actions": [
+          "Provide detailed data on CAC, LTV, and AI accuracy.",
+          "Share the architecture of AI, models used and data sources for training the AI models.",
+          "Elaborate the security protocols and compliance certifications.",
+          "Share more information on past successes and failures in scaling ventures."
+        ],
+        "analyst_actions": [
+          "Conduct deeper competitive analysis to understand the market landscape.",
+          "Quantify the potential cost savings and efficiency gains for customers.",
+          "Evaluate the long-term sustainability of the business model.",
+          "Interview existing or potential customers to assess the value proposition."
+        ],
+        "partner_investor_actions": [
+          "Assess the team's ability to execute on their vision and scale the company.",
+          "Determine a follow-up timeline to re-evaluate the opportunity based on the collected data.",
+          "Prepare for a potential follow-up meeting with founders to ask more specific questions."
+        ]
+      },
+      "assumptions_and_inferences": [
+        {
+          "type": "inference",
+          "statement": "The Indian legal tech market has growth potential given the stated systemic inefficiencies, large case backlog and lack of digital tools in place currently.",
+          "sources": [
+            "L1:market_and_opportunity",
+            "Pitch deck"
+          ]
+        },
+        {
+          "type": "assumption",
+          "statement": "The founding team possesses the required expertise to develop and scale the platform."
+        },
+        {
+          "type": "inference",
+          "statement": "Fixed-rate billing can be attractive for enterprises seeking predictable legal costs.",
+          "sources": [
+            "L1:business_model_and_monetization"
+          ]
+        },
+        {
+          "type": "inference",
+          "statement": "Given the importance of local languages, platform's ability to handle Indic languages is a strong competitive advantage",
+          "sources": [
+            "L1:product_and_technology"
+          ]
+        }
+      ],
+      "excluded_data": [
+        {
+          "item": "Detailed financial projections and revenue forecasts (L3)",
+          "reason": "Not available in the provided documents, limiting our ability to estimate potential financial returns."
+        },
+        {
+          "item": "Specific information on the AI algorithms used and their performance metrics (L3)",
+          "reason": "Limited information makes it challenging to assess the defensibility and scalability of the technology."
+        },
+        {
+          "item": "Data on user engagement and platform adoption rates (L3)",
+          "reason": "Lack of engagement data hinders a full understanding of user behavior and stickiness."
+        },
+        {
+          "item": "Customer testimonials and case studies. (L3)",
+          "reason": "Without customer validation, it is hard to confirm benefits and validate key claims."
+        }
+      ],
+      "overall_confidence": 65,
+      "confidence_rationale": "The potential market and experienced team give me moderate confidence in Nyayanidhi. However, missing performance data and details on the AI tech stack prevent a stronger recommendation. Addressing these data gaps could significantly increase the confidence.",
+      "decision_triggers": {
+        "applicable": true,
+        "milestones": [
+          {
+            "trigger": "CAC < $X and LTV significantly > CAC (quantify with target values)",
+            "action": "promote",
+            "deadline": "60 days"
+          },
+          {
+            "trigger": "AI accuracy rate (legal drafting) > 90%",
+            "action": "promote",
+            "deadline": "60 days"
+          },
+          {
+            "trigger": "Failure to provide requested data on CAC, LTV, AI accuracy within 30 days",
+            "action": "demote",
+            "deadline": "30 days"
+          }
+        ]
+      },
+      "remediation_paths": {
+        "applicable": false,
+        "paths": []
+      },
+      "fit_with_fund_thesis": {
+        "score": "moderate_fit",
+        "explanation": "AI-powered legal tech aligns with our fund's interest in AI and SaaS. The focus on the Indian market adds a unique angle, but requires careful consideration of local market dynamics."
+      }
+    },
+    "metadata": {
+      "company_name": "Nyayanidhi is a legal-tech startup that leverages AI to automate legal research and drafting, and aims to make justice more accessible, faster, and cost-effective, particularly in the Indian legal system",
+      "stage": "early stage",
+      "sector": "legal tech"
+    }
+  },
+  "errors": [],
+  "pdfData": {
+    "text": "\n\n\n\n  \nContact\nwww.linkedin.com/in/dinesh-\nbabu-299415175 (LinkedIn)\nTop Skills\nDeep Learning\nImage Processing\nPython (Programming Language)\nLanguages\nKannada (Full Professional)\nTamil (Native or Bilingual)\nHindi (Limited Working)\nEnglish (Native or Bilingual)\nTelugu (Native or Bilingual)\nCertifications\nStructuring Machine Learning\nProjects\nProgramming Foundations with\nJavaScript, HTML and CSS\nIntroduction to Operating Systems\nGoogle Cloud Platform\nFundamentals: Core Infrastructure\nNeural Networks and Deep Learning\nHonors-Awards\nThird Place, Centrestage Theatre |\nFestember 2018\nFirst Place, Centrestage Theatre |\nSaarang 2019\nFirst Place, Centrestage Theatre |\nFestember 2019\nFirst Place, Centrestage Theatre |\nSaarang 2020\nFirst Place, Radio Play Competition |\nSaarang Online 2021\nDinesh Babu\nTech Lead, Nyayanidhi | Actor | Ex-Oracle\nBengaluru, Karnataka, India\nSummary\nI’m a Backend Engineer and Tech Lead at Nyayanidhi, building\nscalable legal-tech systems using FastAPI, PostgreSQL, and AI-\ndriven vector search. I focus on automating legal research and\ndrafting, improving efficiency by over 60%. Previously at Oracle, I\ndelivered reliable backend services for ClinicalOne. I love designing\ndependable systems, leading teams, and outside work, I enjoy\nwriting and performing stage plays.\nExperience\nNyayanidhi\nFounding Engineer and Tech Lead\nNovember 2025 - Present (1 month)\nBengaluru\nFreelance\nActor\nFebruary 2023 - Present (2 years 10 months)\nStage Plays, Short Films and Advertisements\nOracle\n3 years 11 months\nSoftware Developer (IC2)\nAugust 2024 - November 2025 (1 year 4 months)\nBengaluru\nAssociate Software Developer (IC1)\nAugust 2022 - August 2024 (2 years 1 month)\nBengaluru, Karnataka, India\nProduct Development Intern\nJanuary 2022 - July 2022 (7 months)\nWorked with Monitoring tools like Prometheus and Grafana, while automating\ninstallation processes using Chef.\n \nPage 1 of 3\n\n  \nCARV English\n4 years\nHead\nAugust 2021 - July 2022 (1 year)\nActor - Scriptwriter\nAugust 2018 - July 2022 (4 years)\nStudent In-Charge, Sponsorship\nAugust 2019 - April 2020 (9 months)\nHelped procure sponsorship for 'Watch This Space', a theatre collaboration\nwith Barking Dog Productions. Also helped procure sponsorship for our theatre\nfestivals and professional production\nStudent In-Charge, College Contacts\nDecember 2018 - April 2019 (5 months)\nHelped organise RV's intercollegiate and intra-collegiate theatre festivals.\nRV College Of Engineering\nStudent Placement Coordinator\nSeptember 2020 - April 2022 (1 year 8 months)\nRV QuizCorp\nMember\nAugust 2019 - April 2022 (2 years 9 months)\nSapientury \n6 months\nAssociate SysOps Intern\nAugust 2021 - November 2021 (4 months)\nDeployment and Monitoring of Cloud Native Applications with expertise in\nAWS and GCP.\nAssistant DevOps Intern\nJune 2021 - August 2021 (3 months)\nWimera\nMachine Learning Intern\nApril 2021 - June 2021 (3 months)\nBuilding Machine Learning models to fill missing data from CNC Machine Logs\n \nPage 2 of 3\n\n  \nWIRIN - Wipro IISc Research and Innovation Network\nProject Intern\nJune 2020 - June 2021 (1 year 1 month)\nBengaluru, Karnataka, India\nWorked on Automatic Image Annotation for a self driving car with Indian\nScenarios using Mask R CNN\nEducation\nR. V. College of Engineering, Bangalore\nBachelor of Engineering - BE, Computer Engineering · (August\n2018 - September 2022)\nClarence High School Bangalore\n12th Grade ISC, PCMC · (2016 - 2018)\nClarence High School Bangalore\n10th Grade ICSE  · (June 2008 - May 2016)\n \nPage 3 of 3\n\n  \nContact\nwww.linkedin.com/in/\nchakshumasagali (LinkedIn)\nTop Skills\nLean Manufacturing\nLean Six Sigma\nInventory Management\nCertifications\nBusiness analytics and digital media\nChakshu Masagali\nFounder @Nyayanidhi | Ai for Litigation | Duke University\nSan Francisco Bay Area\nSummary\nI optimize processes. \nCore belief : Just start, improve throughout. Every product is just a\nprototype for the next version.\nValues : Integrity, Collaborative growth and Mutual respect. \nWhat gives me an edge : Tech, Business and human understanding,\nPattern recognition, Product Vision\nIn the vibrant intersection of academia and entrepreneurship, I steer\nas an MEng Management graduate student at Duke University. \nAs a serial entrepreneur with an audacious vision, thriving in chaos,\nI love to navigate the convergence of technology and operational\nincumbrance. Applying expertise in agile product ownership,\nOperational excellence, and strategic growth.\nExperience\nNyayanidhi\nCo-Founder\nJanuary 2024 - Present (1 year 11 months)\nBengaluru, Karnataka, India\nBuilding on the vanguard of legal innovation. Our advanced GenAI technology\nsupercharges our litigators to achieve tenfold productivity at merely a fifth of\nthe cost. By automating routine tasks and redefining workflows, we usher in an\nera of unparalleled efficiency and precision in legal practice.\nGame Design, development and Innovation Master's program\n@duke \nGraduate Teaching Assistant\nJanuary 2024 - December 2024 (1 year)\nDurham, North Carolina, United States\nIn this role, I contributed to the development of business and game design\ncourses, with a strong emphasis on optimizing project management and\n \nPage 1 of 3\n\n  \ncollaboration. By introducing professional tools like Jira, I helped students\nimprove workflow efficiency and teamwork. Additionally, I played a key role in\nexpanding the program's network, organizing events that connected students\nwith industry professionals, which led to more opportunities for internships and\ncareer advancement. This experience sharpened my ability to design impactful\nlearning experiences and build meaningful professional relationships.\nThe Shyft Group\nOperations Management Intern\nMay 2024 - August 2024 (4 months)\nBristol, Indiana, United States\n- Optimized and increased throughput of the specialized vehicle manufacturing\nfleet by 26% and reduced material delivery time by 2x by eliminating\nbottlenecks in the process.\n- Proposed and delivered project proposal for implementation of the KanBan\nsystem for inventory management in a highly disorganized manufacturing\nenvironment. \n- Saved the company upwards of $30000 every single day by eliminating\nwastages and non value adding processes.\nSystems Implemented : KanBan, Lean Manufacturing, Six Sigma, Agile\nproduct development\nDifficulties embraced : Archaic ERP tech, Extreme reliance on human labor\naccompanied with stubborn engrained practices, Highly variable production\nline.\nFastly enterprises\nCo-Founder\nJanuary 2022 - July 2023 (1 year 7 months)\nIndia\nI'm the force behind Fastly, on a mission to transform small retail. Our\njourney unfolds in three steps: Digitalization, Organization, and Supply Chain\nOptimization. Our proposed cloud based Point-of-Sale (POS) mobile app kicks\noff this revolution, making retail more efficient and profitable. Grounded in\ndata-driven innovation and collaborative leadership, we're redefining retail's\nfuture.\nWhat the froot\nFounder \nAugust 2020 - October 2022 (2 years 3 months)\n \nPage 2 of 3\n\n  \nIndia\nWhatthefroot is India's only platform for authentic fruit based products. \n- Devolopment of pure fruit snacks\n- Facilitating small  business with fruit based products/services to get a wider\nreach and target the right communities with our one of a kind \n\"all-fruit \" platform, whatthefroot.com\n- Fruit waste management (loss of quality and quantity during logistical\nmovement of fruits) \n- Active eduction about the importance of fruits in our diet \nBharat Heavy Electricals Limited\nProject Trainee\nJune 2022 - July 2022 (2 months)\nAIESEC in India\nOGT Team member \nFebruary 2020 - June 2022 (2 years 5 months)\nOperations \n- lead conversion\n- Intern acceptance \nValue delivery \n- post conversion \nRevels, MIT Manipal\nStudent Volunteer\nFebruary 2020 - March 2020 (2 months)\nEducation\nDuke University\nMaster of Engineering - MEng, Management · (August 2023 - December 2024)\nManipal Institute of Technology\nBachelor of Technology - BTech, Mechanical Engineering · (2019 - 2023)\nBishop Cotton Boys' School\n · (2004 - 2018)\n \nPage 3 of 3\n\n  \nContact\nwww.linkedin.com/in/adithya-lhs\n(LinkedIn)\nTop Skills\nC (Programming Language)\nData Science\nMachine Learning\nAdithya LHS\nFounder @ Nyayanidhi | AI for Litigation | Policy\nBengaluru, Karnataka, India\nSummary\nHello! \nPast: Compliance Tech to Gov of Kar\nNow: Building AI for Litigaton Systems to make justice 10x cheaper\nand faster. \nAt Nyayanidhi, we're leveraging AI to reduce systemic inefficiencies\nthat cause delays in India's justice system. Dissecting a multi-lingual\nand undigitised data-source, we're processing thousands of litigation\nfiles every week.\nFind us at the heart of litigation in Bangalore at the High Court of\nKarnataka for a quick filter coffee (we've a tiny set up there)\nInterests: AI, Policy, Data Security, Systems, Infrastructure and\nNeuroscience.\nExperience\nNyayanidhi\nCEO & Co-Founder\nMay 2024 - Present (1 year 7 months)\nBangalore\nMaking justice 10x accessible, faster and cost effective\nPsup\nChief Executive Officer\nJuly 2021 - October 2023 (2 years 4 months)\nRefining and Redefining Higher Education at University nodes. b2g\ncompliance tech for data mining, reporting and analysis in accreditation\n180 Degrees Consulting NITK \nCo-Founder, Vice President and Treasurer\nAugust 2021 - May 2022 (10 months)\nBangalore Urban, Karnataka, India\n \nPage 1 of 2\n\n  \nFluxGen Engineering Technologies\n4 months\nSales Business Development\nApril 2020 - June 2020 (3 months)\nBengaluru, Karnataka, India\nMachine Learning Engineer\nMarch 2020 - June 2020 (4 months)\nBengaluru, Karnataka, India\nUser Interface Engineer\nMarch 2020 - June 2020 (4 months)\nBengaluru, Karnataka, India\nTEDxNITKSurathkal\nMarketing Specialist\nAugust 2019 - December 2019 (5 months)\nSurathkal, Karnataka, India\nEducation\nNational Institute of Technology Karnataka\nBachelor of Technology - BTech, Electrical, Electronics and Communications\nEngineering · (2018 - 2022)\nBishop Cotton Boys' School\n · (2004 - 2018)\n \nPage 2 of 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "links": [
+      "https://www.linkedin.com/in/dinesh-",
+      "https://www.linkedin.com/in/",
+      "https://www.linkedin.com/in/adithya-lhs",
+      "https://www.linkedin.com/in/dinesh-babu-299415175?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3Bgrv9aBF%2BTyqk6UDQpY3BTw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile",
+      "https://www.linkedin.com/in/chakshumasagali?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BErvse%2FjHRYu6OC46xEPntw%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile",
+      "https://www.linkedin.com/in/adithya-lhs?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BjfbzMpLnQEWWLo6hTMSCGg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile"
+    ],
+    "emails": []
+  },
+  "initialScrape": {
+    "pages": [
+      {
+        "name": "home",
+        "url": "https://nyayanidhi.com",
+        "html": "<!DOCTYPE html><html lang=\"en\"><head><title>Nyayanidhi</title></head><body><main><header><div><a title=\"brand-logo\" href=\"/\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div></div></div><hr></header><section><div></div><div><div><div><span>⚡</span>AI-Powered Legal Excellence</div><div><div><div><div><span>Appeals, Writs, Petitions</span><span>|</span></div></div><div><p>With <span>Legal × Indic AI</span></p><p>Digital Litigation Infrastructure for Enterprises</p></div></div></div><div><a href=\"https://app.nyayanidhi.com\">Get Started</a><a href=\"mailto:nyayanidhi18@gmail.com\">Schedule Demo</a></div></div></div></section><section><div><div><div><h2>Augment General Counsels</h2><h3>with Litigation centric AI-Agents and specialist advocates</h3></div><div><div><div><div><h3>Built for Enterprises</h3><p>Single Platform to manage legal requirements around all assets and liabilities.</p></div></div></div><div><div><div><h3>Shift From Billable Hours to Billable Outcomes</h3><p>Transparent processes where our partner advocates bill fixed rates on completion of work.</p></div></div></div><div><div><div><h3>AI-native, vertically integrated</h3><p>Engage specialist advocates working with AI to manage business risks.</p></div></div></div></div></div></div></section><footer><div><a href=\"/\" title=\"Nyayanidhi\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div><div><h2>Resources</h2><ul><li><a href=\"mailto:nyayanidhi18@gmail.com\">Contact</a></li></ul></div><div><h2>Social</h2><ul><li><a href=\"http://twitter.com/nyayanidhi\">Twitter</a></li><li><a href=\"https://www.linkedin.com/company/nyayanidhi/\">LinkedIn</a></li></ul></div></div><div><span>Copyright © 2025 <a href=\"/\">Nyayanidhi</a> - Focus on representation, not paperwork. AI-powered solutions trusted by India's top legal minds.</span><ul><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Privacy Policy</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Terms of Service</a></li></ul></div></div></footer></main></body></html>",
+        "links": [
+          "https://nyayanidhi.com/",
+          "https://app.nyayanidhi.com/",
+          "mailto:nyayanidhi18@gmail.com",
+          "http://twitter.com/nyayanidhi",
+          "https://www.linkedin.com/company/nyayanidhi/",
+          "https://nyayanidhi.com/#"
+        ]
+      },
+      {
+        "name": "about",
+        "url": "https://nyayanidhi.com/about",
+        "html": "<!DOCTYPE html><html lang=\"en\"><head><title>404: This page could not be found.</title><title>Nyayanidhi</title><title>Nyayanidhi</title></head><body><div><div><h1>404</h1><div><h2>This page could not be found.</h2></div></div></div></body></html>",
+        "links": []
+      },
+      {
+        "name": "team",
+        "url": "https://nyayanidhi.com/team",
+        "html": "<!DOCTYPE html><html lang=\"en\"><head><title>404: This page could not be found.</title><title>Nyayanidhi</title><title>Nyayanidhi</title></head><body><div><div><h1>404</h1><div><h2>This page could not be found.</h2></div></div></div></body></html>",
+        "links": []
+      }
+    ],
+    "baseUrl": "https://nyayanidhi.com"
+  },
+  "intelligentScrape": {
+    "scrapedPages": [
+      {
+        "url": "https://nyayanidhi.com/",
+        "importance": 100,
+        "html": "<!DOCTYPE html><html lang=\"en\"><head><title>Nyayanidhi</title></head><body><main><header><div><a title=\"brand-logo\" href=\"/\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div></div></div><hr></header><section><div></div><div><div><div><span>⚡</span>AI-Powered Legal Excellence</div><div><div><div><div><span>Appeals, Writs, Petitions</span><span>|</span></div></div><div><p>With <span>Legal × Indic AI</span></p><p>Digital Litigation Infrastructure for Enterprises</p></div></div></div><div><a href=\"https://app.nyayanidhi.com\">Get Started</a><a href=\"mailto:nyayanidhi18@gmail.com\">Schedule Demo</a></div></div></div></section><section><div><div><div><h2>Augment General Counsels</h2><h3>with Litigation centric AI-Agents and specialist advocates</h3></div><div><div><div><div><h3>Built for Enterprises</h3><p>Single Platform to manage legal requirements around all assets and liabilities.</p></div></div></div><div><div><div><h3>Shift From Billable Hours to Billable Outcomes</h3><p>Transparent processes where our partner advocates bill fixed rates on completion of work.</p></div></div></div><div><div><div><h3>AI-native, vertically integrated</h3><p>Engage specialist advocates working with AI to manage business risks.</p></div></div></div></div></div></div></section><footer><div><a href=\"/\" title=\"Nyayanidhi\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div><div><h2>Resources</h2><ul><li><a href=\"mailto:nyayanidhi18@gmail.com\">Contact</a></li></ul></div><div><h2>Social</h2><ul><li><a href=\"http://twitter.com/nyayanidhi\">Twitter</a></li><li><a href=\"https://www.linkedin.com/company/nyayanidhi/\">LinkedIn</a></li></ul></div></div><div><span>Copyright © 2025 <a href=\"/\">Nyayanidhi</a> - Focus on representation, not paperwork. AI-powered solutions trusted by India's top legal minds.</span><ul><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Privacy Policy</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Terms of Service</a></li></ul></div></div></footer></main></body></html>",
+        "links": [
+          "https://nyayanidhi.com/",
+          "https://app.nyayanidhi.com/",
+          "mailto:nyayanidhi18@gmail.com",
+          "http://twitter.com/nyayanidhi",
+          "https://www.linkedin.com/company/nyayanidhi/",
+          "https://nyayanidhi.com/#"
+        ],
+        "level": 2
+      },
+      {
+        "url": "https://nyayanidhi.com/",
+        "importance": 90,
+        "html": "<!DOCTYPE html><html lang=\"en\"><head><title>Nyayanidhi</title></head><body><main><header><div><a title=\"brand-logo\" href=\"/\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div></div></div><hr></header><section><div></div><div><div><div><span>⚡</span>AI-Powered Legal Excellence</div><div><div><div><div><span>Appeals, Writs, Petitions</span><span>|</span></div></div><div><p>With <span>Legal × Indic AI</span></p><p>Digital Litigation Infrastructure for Enterprises</p></div></div></div><div><a href=\"https://app.nyayanidhi.com\">Get Started</a><a href=\"mailto:nyayanidhi18@gmail.com\">Schedule Demo</a></div></div></div></section><section><div><div><div><h2>Augment General Counsels</h2><h3>with Litigation centric AI-Agents and specialist advocates</h3></div><div><div><div><div><h3>Built for Enterprises</h3><p>Single Platform to manage legal requirements around all assets and liabilities.</p></div></div></div><div><div><div><h3>Shift From Billable Hours to Billable Outcomes</h3><p>Transparent processes where our partner advocates bill fixed rates on completion of work.</p></div></div></div><div><div><div><h3>AI-native, vertically integrated</h3><p>Engage specialist advocates working with AI to manage business risks.</p></div></div></div></div></div></div></section><footer><div><a href=\"/\" title=\"Nyayanidhi\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div><div><h2>Resources</h2><ul><li><a href=\"mailto:nyayanidhi18@gmail.com\">Contact</a></li></ul></div><div><h2>Social</h2><ul><li><a href=\"http://twitter.com/nyayanidhi\">Twitter</a></li><li><a href=\"https://www.linkedin.com/company/nyayanidhi/\">LinkedIn</a></li></ul></div></div><div><span>Copyright © 2025 <a href=\"/\">Nyayanidhi</a> - Focus on representation, not paperwork. AI-powered solutions trusted by India's top legal minds.</span><ul><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Privacy Policy</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Terms of Service</a></li></ul></div></div></footer></main></body></html>",
+        "links": [
+          "https://nyayanidhi.com/",
+          "https://app.nyayanidhi.com/",
+          "mailto:nyayanidhi18@gmail.com",
+          "http://twitter.com/nyayanidhi",
+          "https://www.linkedin.com/company/nyayanidhi/",
+          "https://nyayanidhi.com/#"
+        ],
+        "level": 2,
+        "parent": "https://nyayanidhi.com/"
+      },
+      {
+        "url": "https://nyayanidhi.com/#",
+        "importance": 90,
+        "html": "<!DOCTYPE html><html lang=\"en\"><head><title>Nyayanidhi</title></head><body><main><header><div><a title=\"brand-logo\" href=\"/\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div></div></div><hr></header><section><div></div><div><div><div><span>⚡</span>AI-Powered Legal Excellence</div><div><div><div><div><span>Appeals, Writs, Petitions</span><span>|</span></div></div><div><p>With <span>Legal × Indic AI</span></p><p>Digital Litigation Infrastructure for Enterprises</p></div></div></div><div><a href=\"https://app.nyayanidhi.com\">Get Started</a><a href=\"mailto:nyayanidhi18@gmail.com\">Schedule Demo</a></div></div></div></section><section><div><div><div><h2>Augment General Counsels</h2><h3>with Litigation centric AI-Agents and specialist advocates</h3></div><div><div><div><div><h3>Built for Enterprises</h3><p>Single Platform to manage legal requirements around all assets and liabilities.</p></div></div></div><div><div><div><h3>Shift From Billable Hours to Billable Outcomes</h3><p>Transparent processes where our partner advocates bill fixed rates on completion of work.</p></div></div></div><div><div><div><h3>AI-native, vertically integrated</h3><p>Engage specialist advocates working with AI to manage business risks.</p></div></div></div></div></div></div></section><footer><div><a href=\"/\" title=\"Nyayanidhi\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div><div><h2>Resources</h2><ul><li><a href=\"mailto:nyayanidhi18@gmail.com\">Contact</a></li></ul></div><div><h2>Social</h2><ul><li><a href=\"http://twitter.com/nyayanidhi\">Twitter</a></li><li><a href=\"https://www.linkedin.com/company/nyayanidhi/\">LinkedIn</a></li></ul></div></div><div><span>Copyright © 2025 <a href=\"/\">Nyayanidhi</a> - Focus on representation, not paperwork. AI-powered solutions trusted by India's top legal minds.</span><ul><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Privacy Policy</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Terms of Service</a></li></ul></div></div></footer></main></body></html>",
+        "links": [
+          "https://nyayanidhi.com/",
+          "https://app.nyayanidhi.com/",
+          "mailto:nyayanidhi18@gmail.com",
+          "http://twitter.com/nyayanidhi",
+          "https://www.linkedin.com/company/nyayanidhi/",
+          "https://nyayanidhi.com/#"
+        ],
+        "level": 2,
+        "parent": "https://nyayanidhi.com/"
+      },
+      {
+        "url": "https://www.oracle.com/",
+        "importance": 70,
+        "html": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n<title>fw_error_www</title>\n</head>\n<body>\n<div align=\"center\">\n<div align=\"center\">\n</div>\n<table width=\"449\" align=\"center\" border=\"0\">\n<tbody>\n<tr>\n<td width=\"68%\" valign=\"top\">\n<div align=\"center\">\n<p><img alt=\"\" src=\"https://www.oracle.com/splash/oralogo_small.gif\" width=\"154\" height=\"19\"></p>\n<p align=\"justify\"><font face=\"Arial, Helvetica, sans-serif\">This site </font><font face=\"Arial, Helvetica, sans-serif\"> is experiencing technical difficulty. We are aware of the issue and are working as quickly as possible to correct the issue. <br>\n<br>\nWe apologize for any inconvenience this may have caused. <br>\n<br>\nTo speak with an Oracle sales representative: 1.800.ORACLE1.<br>\n<br>\nTo contact Oracle Corporate Headquarters from anywhere in the world: 1.650.506.7000.<br>\n<br>\nTo get technical support in the United States: 1.800.633.0738.\n<br><br><br></font></p><p align=\"left\"><font face=\"Arial, Helvetica, sans-serif\"><b>Incident Number: 0.25961160.1763391672.442037</b></font></p><br>\n&nbsp;\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div></body></html>",
+        "links": [],
+        "level": 1
+      },
+      {
+        "url": "https://app.nyayanidhi.com/",
+        "importance": 80,
+        "html": "<!DOCTYPE html><html lang=\"en\"><head><title>Nyaya Nidhi</title></head><body><div><a href=\"/signup\">Sign Up</a><div><div><div><h1>Login to your account</h1><p>Enter your email below</p></div><div><div><div><div><label for=\"email\">Email</label></div><div><label for=\"email\">Password</label></div><button>Sign In with Email</button></div></div></div><p>By clicking continue, you agree to our <a href=\"/\">Terms of Service</a> and <a href=\"/\">Privacy Policy</a>.</p></div></div></div><div role=\"region\" aria-label=\"Notifications (F8)\" tabindex=\"-1\"></div></body></html>",
+        "links": [
+          "https://app.nyayanidhi.com/signup",
+          "https://app.nyayanidhi.com/"
+        ],
+        "level": 1
+      },
+      {
+        "url": "https://twitter.com/nyayanidhi",
+        "importance": 60,
+        "html": "<!DOCTYPE html><html dir=\"ltr\" lang=\"en\"><head>\n<title>Nyaya Nidhi (@nyayanidhi) / X</title></head><body><div><div><div><div><div><div><div><div data-testid=\"BottomBar\"><div><div><div><div dir=\"ltr\"><span>Don’t miss what’s happening</span></div><div dir=\"ltr\"><span>People on X are the first to know.</span></div></div><div><div><div><div><a href=\"/login\" role=\"link\" data-testid=\"login\"><div dir=\"ltr\"><span><span>Log in</span></span></div></a></div><div><a href=\"/i/flow/signup\" role=\"link\" data-testid=\"signup\"><div dir=\"ltr\"><span><span>Sign up</span></span></div></a></div></div></div></div></div></div></div></div></div><div><div></div></div></div></div><div dir=\"ltr\" aria-hidden=\"false\"><button aria-label=\"Skip to home timeline\" role=\"button\" type=\"button\"><div dir=\"ltr\"></div></button><button aria-label=\"Skip to trending\" role=\"button\" type=\"button\"><div dir=\"ltr\"></div></button><header role=\"banner\"><div><div><div><div><div><h1 role=\"heading\"><a href=\"/\" aria-label=\"X\" role=\"link\"><div dir=\"ltr\"></div></a></h1></div></div></div></div></div></header><main role=\"main\"><div><div><div><div data-testid=\"primaryColumn\"><div aria-label=\"Home timeline\" tabindex=\"0\"><div><div><div><div><div><div><div><div><button aria-label=\"Back\" role=\"button\" data-testid=\"app-bar-back\" type=\"button\"><div dir=\"ltr\"></div></button></div><div><div><h2 dir=\"ltr\" aria-level=\"2\" role=\"heading\"><div><div><div><div><span><span><span>Nyaya Nidhi</span></span></span><span></span></div></div></div></div></h2><div dir=\"ltr\">4 posts</div></div></div><div><div><button aria-label=\"Search\" role=\"button\" type=\"button\"><div dir=\"ltr\"></div></button></div></div></div></div></div></div></div></div><div><div></div></div></div><div><div><div><div><div><div></div></div><div><div><div data-testid=\"UserAvatar-Container-nyayanidhi\"><div><div><div><div><a href=\"/nyayanidhi/photo\" role=\"link\"><div></div><div></div><div><div></div></div><div></div></a></div></div></div></div></div><div><div data-testid=\"placementTracking\"><div><button aria-describedby=\"id__czwpmbx613b\" aria-label=\"Follow @nyayanidhi\" role=\"button\" data-testid=\"1724718702585905152-follow\" type=\"button\"><div dir=\"ltr\"><span><span>Follow</span></span></div></button></div></div></div></div><div data-testid=\"UserName\"><div><div><div><div><div><div dir=\"ltr\"><span><span>Nyaya Nidhi</span><span><span></span></span></span></div></div></div><div><div tabindex=\"-1\"><div><div dir=\"ltr\"><span>@nyayanidhi</span></div></div></div></div></div></div></div></div><div><div><div dir=\"auto\" data-testid=\"UserDescription\"><span>Reforming India's Litigation/Judicial System</span></div></div></div><div><div role=\"progressbar\" aria-valuemax=\"1\" aria-valuemin=\"0\"></div></div><div><div dir=\"ltr\" data-testid=\"UserProfileHeader_Items\"><span dir=\"ltr\" role=\"presentation\" data-testid=\"UserLocation\"><span><span>Bangalore</span></span></span><a dir=\"ltr\" href=\"https://t.co/T4SV1VSFiL\" rel=\"noopener noreferrer nofollow\" target=\"_blank\" role=\"none\" data-testid=\"UserUrl\"><span>nyayanidhi.com</span></a><span dir=\"ltr\" role=\"presentation\" data-testid=\"UserJoinDate\"><span>Joined November 2023</span></span></div></div><div><div><a href=\"/nyayanidhi/following\" dir=\"ltr\" role=\"link\"><span><span>3</span></span> <span><span>Following</span></span></a></div><div><a href=\"/nyayanidhi/verified_followers\" dir=\"ltr\" role=\"link\"><span><span>427</span></span> <span><span>Followers</span></span></a></div></div></div></div><div><div aria-label=\"Loading posts by @nyayanidhi\" role=\"progressbar\" aria-valuemax=\"1\" aria-valuemin=\"0\"></div></div></div></div></div></div></div><div data-testid=\"sidebarColumn\"><div><div><div><div aria-label=\"Trending\" tabindex=\"0\"><div><div><section aria-label=\"Sign up\" role=\"region\"><div><h2 aria-level=\"2\" role=\"heading\"><div dir=\"ltr\"><span>New to X?</span></div></h2></div><div dir=\"ltr\"><span>Sign up now to get your own personalized timeline!</span></div><div><div data-testid=\"google_sign_in_container\"><div></div></div><button role=\"button\" data-testid=\"apple_sign_in_button\" type=\"button\"><div dir=\"ltr\"><span><span>Sign up with Apple</span></span></div></button><a href=\"/i/flow/signup\" role=\"link\"><div dir=\"ltr\"><span><span>Create account</span></span></div></a></div><div dir=\"ltr\">By signing up, you agree to the <a href=\"https://x.com/tos\" rel=\"noopener noreferrer nofollow\" target=\"_blank\" role=\"link\"><span>Terms of Service</span></a> and <a href=\"https://x.com/privacy\" rel=\"noopener noreferrer nofollow\" target=\"_blank\" role=\"link\"><span>Privacy Policy</span></a>, including <a href=\"https://help.x.com/rules-and-policies/twitter-cookies\" rel=\"noopener noreferrer nofollow\" target=\"_blank\" role=\"link\"><span>Cookie Use.</span></a></div></section></div></div></div></div></div></div></div></div></div></div></main></div></div></div></div></body></html>",
+        "links": [
+          "https://x.com/login",
+          "https://x.com/i/flow/signup",
+          "https://x.com/",
+          "https://x.com/nyayanidhi/photo",
+          "https://t.co/T4SV1VSFiL",
+          "https://x.com/nyayanidhi/following",
+          "https://x.com/nyayanidhi/verified_followers",
+          "https://x.com/nyayanidhi",
+          "https://x.com/nyayanidhi/with_replies",
+          "https://x.com/nyayanidhi/media",
+          "https://x.com/tos",
+          "https://x.com/privacy",
+          "https://help.x.com/rules-and-policies/twitter-cookies",
+          "https://support.x.com/articles/20170514",
+          "https://help.x.com/resources/accessibility",
+          "https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+        ],
+        "level": 1
+      }
+    ],
+    "totalPages": 6,
+    "linkedInUrls": [
+      {
+        "url": "https://www.linkedin.com/company/nyayanidhi/",
+        "importance": 95,
+        "source": "scraping-plan"
+      },
+      {
+        "url": "https://www.linkedin.com/in/dinesh-babu-299415175",
+        "importance": 90,
+        "source": "scraping-plan"
+      }
+    ]
+  },
+  "allPages": [
+    {
+      "name": "home",
+      "url": "https://nyayanidhi.com",
+      "html": "<!DOCTYPE html><html lang=\"en\"><head><title>Nyayanidhi</title></head><body><main><header><div><a title=\"brand-logo\" href=\"/\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div></div></div><hr></header><section><div></div><div><div><div><span>⚡</span>AI-Powered Legal Excellence</div><div><div><div><div><span>Appeals, Writs, Petitions</span><span>|</span></div></div><div><p>With <span>Legal × Indic AI</span></p><p>Digital Litigation Infrastructure for Enterprises</p></div></div></div><div><a href=\"https://app.nyayanidhi.com\">Get Started</a><a href=\"mailto:nyayanidhi18@gmail.com\">Schedule Demo</a></div></div></div></section><section><div><div><div><h2>Augment General Counsels</h2><h3>with Litigation centric AI-Agents and specialist advocates</h3></div><div><div><div><div><h3>Built for Enterprises</h3><p>Single Platform to manage legal requirements around all assets and liabilities.</p></div></div></div><div><div><div><h3>Shift From Billable Hours to Billable Outcomes</h3><p>Transparent processes where our partner advocates bill fixed rates on completion of work.</p></div></div></div><div><div><div><h3>AI-native, vertically integrated</h3><p>Engage specialist advocates working with AI to manage business risks.</p></div></div></div></div></div></div></section><footer><div><a href=\"/\" title=\"Nyayanidhi\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div><div><h2>Resources</h2><ul><li><a href=\"mailto:nyayanidhi18@gmail.com\">Contact</a></li></ul></div><div><h2>Social</h2><ul><li><a href=\"http://twitter.com/nyayanidhi\">Twitter</a></li><li><a href=\"https://www.linkedin.com/company/nyayanidhi/\">LinkedIn</a></li></ul></div></div><div><span>Copyright © 2025 <a href=\"/\">Nyayanidhi</a> - Focus on representation, not paperwork. AI-powered solutions trusted by India's top legal minds.</span><ul><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Privacy Policy</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Terms of Service</a></li></ul></div></div></footer></main></body></html>",
+      "links": [
+        "https://nyayanidhi.com/",
+        "https://app.nyayanidhi.com/",
+        "mailto:nyayanidhi18@gmail.com",
+        "http://twitter.com/nyayanidhi",
+        "https://www.linkedin.com/company/nyayanidhi/",
+        "https://nyayanidhi.com/#"
+      ]
+    },
+    {
+      "name": "about",
+      "url": "https://nyayanidhi.com/about",
+      "html": "<!DOCTYPE html><html lang=\"en\"><head><title>404: This page could not be found.</title><title>Nyayanidhi</title><title>Nyayanidhi</title></head><body><div><div><h1>404</h1><div><h2>This page could not be found.</h2></div></div></div></body></html>",
+      "links": []
+    },
+    {
+      "name": "team",
+      "url": "https://nyayanidhi.com/team",
+      "html": "<!DOCTYPE html><html lang=\"en\"><head><title>404: This page could not be found.</title><title>Nyayanidhi</title><title>Nyayanidhi</title></head><body><div><div><h1>404</h1><div><h2>This page could not be found.</h2></div></div></div></body></html>",
+      "links": []
+    },
+    {
+      "url": "https://nyayanidhi.com/",
+      "importance": 100,
+      "html": "<!DOCTYPE html><html lang=\"en\"><head><title>Nyayanidhi</title></head><body><main><header><div><a title=\"brand-logo\" href=\"/\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div></div></div><hr></header><section><div></div><div><div><div><span>⚡</span>AI-Powered Legal Excellence</div><div><div><div><div><span>Appeals, Writs, Petitions</span><span>|</span></div></div><div><p>With <span>Legal × Indic AI</span></p><p>Digital Litigation Infrastructure for Enterprises</p></div></div></div><div><a href=\"https://app.nyayanidhi.com\">Get Started</a><a href=\"mailto:nyayanidhi18@gmail.com\">Schedule Demo</a></div></div></div></section><section><div><div><div><h2>Augment General Counsels</h2><h3>with Litigation centric AI-Agents and specialist advocates</h3></div><div><div><div><div><h3>Built for Enterprises</h3><p>Single Platform to manage legal requirements around all assets and liabilities.</p></div></div></div><div><div><div><h3>Shift From Billable Hours to Billable Outcomes</h3><p>Transparent processes where our partner advocates bill fixed rates on completion of work.</p></div></div></div><div><div><div><h3>AI-native, vertically integrated</h3><p>Engage specialist advocates working with AI to manage business risks.</p></div></div></div></div></div></div></section><footer><div><a href=\"/\" title=\"Nyayanidhi\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div><div><h2>Resources</h2><ul><li><a href=\"mailto:nyayanidhi18@gmail.com\">Contact</a></li></ul></div><div><h2>Social</h2><ul><li><a href=\"http://twitter.com/nyayanidhi\">Twitter</a></li><li><a href=\"https://www.linkedin.com/company/nyayanidhi/\">LinkedIn</a></li></ul></div></div><div><span>Copyright © 2025 <a href=\"/\">Nyayanidhi</a> - Focus on representation, not paperwork. AI-powered solutions trusted by India's top legal minds.</span><ul><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Privacy Policy</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Terms of Service</a></li></ul></div></div></footer></main></body></html>",
+      "links": [
+        "https://nyayanidhi.com/",
+        "https://app.nyayanidhi.com/",
+        "mailto:nyayanidhi18@gmail.com",
+        "http://twitter.com/nyayanidhi",
+        "https://www.linkedin.com/company/nyayanidhi/",
+        "https://nyayanidhi.com/#"
+      ],
+      "level": 2
+    },
+    {
+      "url": "https://nyayanidhi.com/",
+      "importance": 90,
+      "html": "<!DOCTYPE html><html lang=\"en\"><head><title>Nyayanidhi</title></head><body><main><header><div><a title=\"brand-logo\" href=\"/\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div></div></div><hr></header><section><div></div><div><div><div><span>⚡</span>AI-Powered Legal Excellence</div><div><div><div><div><span>Appeals, Writs, Petitions</span><span>|</span></div></div><div><p>With <span>Legal × Indic AI</span></p><p>Digital Litigation Infrastructure for Enterprises</p></div></div></div><div><a href=\"https://app.nyayanidhi.com\">Get Started</a><a href=\"mailto:nyayanidhi18@gmail.com\">Schedule Demo</a></div></div></div></section><section><div><div><div><h2>Augment General Counsels</h2><h3>with Litigation centric AI-Agents and specialist advocates</h3></div><div><div><div><div><h3>Built for Enterprises</h3><p>Single Platform to manage legal requirements around all assets and liabilities.</p></div></div></div><div><div><div><h3>Shift From Billable Hours to Billable Outcomes</h3><p>Transparent processes where our partner advocates bill fixed rates on completion of work.</p></div></div></div><div><div><div><h3>AI-native, vertically integrated</h3><p>Engage specialist advocates working with AI to manage business risks.</p></div></div></div></div></div></div></section><footer><div><a href=\"/\" title=\"Nyayanidhi\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div><div><h2>Resources</h2><ul><li><a href=\"mailto:nyayanidhi18@gmail.com\">Contact</a></li></ul></div><div><h2>Social</h2><ul><li><a href=\"http://twitter.com/nyayanidhi\">Twitter</a></li><li><a href=\"https://www.linkedin.com/company/nyayanidhi/\">LinkedIn</a></li></ul></div></div><div><span>Copyright © 2025 <a href=\"/\">Nyayanidhi</a> - Focus on representation, not paperwork. AI-powered solutions trusted by India's top legal minds.</span><ul><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Privacy Policy</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Terms of Service</a></li></ul></div></div></footer></main></body></html>",
+      "links": [
+        "https://nyayanidhi.com/",
+        "https://app.nyayanidhi.com/",
+        "mailto:nyayanidhi18@gmail.com",
+        "http://twitter.com/nyayanidhi",
+        "https://www.linkedin.com/company/nyayanidhi/",
+        "https://nyayanidhi.com/#"
+      ],
+      "level": 2,
+      "parent": "https://nyayanidhi.com/"
+    },
+    {
+      "url": "https://nyayanidhi.com/#",
+      "importance": 90,
+      "html": "<!DOCTYPE html><html lang=\"en\"><head><title>Nyayanidhi</title></head><body><main><header><div><a title=\"brand-logo\" href=\"/\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div></div></div><hr></header><section><div></div><div><div><div><span>⚡</span>AI-Powered Legal Excellence</div><div><div><div><div><span>Appeals, Writs, Petitions</span><span>|</span></div></div><div><p>With <span>Legal × Indic AI</span></p><p>Digital Litigation Infrastructure for Enterprises</p></div></div></div><div><a href=\"https://app.nyayanidhi.com\">Get Started</a><a href=\"mailto:nyayanidhi18@gmail.com\">Schedule Demo</a></div></div></div></section><section><div><div><div><h2>Augment General Counsels</h2><h3>with Litigation centric AI-Agents and specialist advocates</h3></div><div><div><div><div><h3>Built for Enterprises</h3><p>Single Platform to manage legal requirements around all assets and liabilities.</p></div></div></div><div><div><div><h3>Shift From Billable Hours to Billable Outcomes</h3><p>Transparent processes where our partner advocates bill fixed rates on completion of work.</p></div></div></div><div><div><div><h3>AI-native, vertically integrated</h3><p>Engage specialist advocates working with AI to manage business risks.</p></div></div></div></div></div></div></section><footer><div><a href=\"/\" title=\"Nyayanidhi\"><img alt=\"Nyayanidhi Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" src=\"/NN.svg\"><span>Nyayanidhi</span></a><div><div><h2>Resources</h2><ul><li><a href=\"mailto:nyayanidhi18@gmail.com\">Contact</a></li></ul></div><div><h2>Social</h2><ul><li><a href=\"http://twitter.com/nyayanidhi\">Twitter</a></li><li><a href=\"https://www.linkedin.com/company/nyayanidhi/\">LinkedIn</a></li></ul></div></div><div><span>Copyright © 2025 <a href=\"/\">Nyayanidhi</a> - Focus on representation, not paperwork. AI-powered solutions trusted by India's top legal minds.</span><ul><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Privacy Policy</a></li><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\">Terms of Service</a></li></ul></div></div></footer></main></body></html>",
+      "links": [
+        "https://nyayanidhi.com/",
+        "https://app.nyayanidhi.com/",
+        "mailto:nyayanidhi18@gmail.com",
+        "http://twitter.com/nyayanidhi",
+        "https://www.linkedin.com/company/nyayanidhi/",
+        "https://nyayanidhi.com/#"
+      ],
+      "level": 2,
+      "parent": "https://nyayanidhi.com/"
+    },
+    {
+      "url": "https://www.oracle.com/",
+      "importance": 70,
+      "html": "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head>\n<title>fw_error_www</title>\n</head>\n<body>\n<div align=\"center\">\n<div align=\"center\">\n</div>\n<table width=\"449\" align=\"center\" border=\"0\">\n<tbody>\n<tr>\n<td width=\"68%\" valign=\"top\">\n<div align=\"center\">\n<p><img alt=\"\" src=\"https://www.oracle.com/splash/oralogo_small.gif\" width=\"154\" height=\"19\"></p>\n<p align=\"justify\"><font face=\"Arial, Helvetica, sans-serif\">This site </font><font face=\"Arial, Helvetica, sans-serif\"> is experiencing technical difficulty. We are aware of the issue and are working as quickly as possible to correct the issue. <br>\n<br>\nWe apologize for any inconvenience this may have caused. <br>\n<br>\nTo speak with an Oracle sales representative: 1.800.ORACLE1.<br>\n<br>\nTo contact Oracle Corporate Headquarters from anywhere in the world: 1.650.506.7000.<br>\n<br>\nTo get technical support in the United States: 1.800.633.0738.\n<br><br><br></font></p><p align=\"left\"><font face=\"Arial, Helvetica, sans-serif\"><b>Incident Number: 0.25961160.1763391672.442037</b></font></p><br>\n&nbsp;\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n</div></body></html>",
+      "links": [],
+      "level": 1
+    },
+    {
+      "url": "https://app.nyayanidhi.com/",
+      "importance": 80,
+      "html": "<!DOCTYPE html><html lang=\"en\"><head><title>Nyaya Nidhi</title></head><body><div><a href=\"/signup\">Sign Up</a><div><div><div><h1>Login to your account</h1><p>Enter your email below</p></div><div><div><div><div><label for=\"email\">Email</label></div><div><label for=\"email\">Password</label></div><button>Sign In with Email</button></div></div></div><p>By clicking continue, you agree to our <a href=\"/\">Terms of Service</a> and <a href=\"/\">Privacy Policy</a>.</p></div></div></div><div role=\"region\" aria-label=\"Notifications (F8)\" tabindex=\"-1\"></div></body></html>",
+      "links": [
+        "https://app.nyayanidhi.com/signup",
+        "https://app.nyayanidhi.com/"
+      ],
+      "level": 1
+    },
+    {
+      "url": "https://twitter.com/nyayanidhi",
+      "importance": 60,
+      "html": "<!DOCTYPE html><html dir=\"ltr\" lang=\"en\"><head>\n<title>Nyaya Nidhi (@nyayanidhi) / X</title></head><body><div><div><div><div><div><div><div><div data-testid=\"BottomBar\"><div><div><div><div dir=\"ltr\"><span>Don’t miss what’s happening</span></div><div dir=\"ltr\"><span>People on X are the first to know.</span></div></div><div><div><div><div><a href=\"/login\" role=\"link\" data-testid=\"login\"><div dir=\"ltr\"><span><span>Log in</span></span></div></a></div><div><a href=\"/i/flow/signup\" role=\"link\" data-testid=\"signup\"><div dir=\"ltr\"><span><span>Sign up</span></span></div></a></div></div></div></div></div></div></div></div></div><div><div></div></div></div></div><div dir=\"ltr\" aria-hidden=\"false\"><button aria-label=\"Skip to home timeline\" role=\"button\" type=\"button\"><div dir=\"ltr\"></div></button><button aria-label=\"Skip to trending\" role=\"button\" type=\"button\"><div dir=\"ltr\"></div></button><header role=\"banner\"><div><div><div><div><div><h1 role=\"heading\"><a href=\"/\" aria-label=\"X\" role=\"link\"><div dir=\"ltr\"></div></a></h1></div></div></div></div></div></header><main role=\"main\"><div><div><div><div data-testid=\"primaryColumn\"><div aria-label=\"Home timeline\" tabindex=\"0\"><div><div><div><div><div><div><div><div><button aria-label=\"Back\" role=\"button\" data-testid=\"app-bar-back\" type=\"button\"><div dir=\"ltr\"></div></button></div><div><div><h2 dir=\"ltr\" aria-level=\"2\" role=\"heading\"><div><div><div><div><span><span><span>Nyaya Nidhi</span></span></span><span></span></div></div></div></div></h2><div dir=\"ltr\">4 posts</div></div></div><div><div><button aria-label=\"Search\" role=\"button\" type=\"button\"><div dir=\"ltr\"></div></button></div></div></div></div></div></div></div></div><div><div></div></div></div><div><div><div><div><div><div></div></div><div><div><div data-testid=\"UserAvatar-Container-nyayanidhi\"><div><div><div><div><a href=\"/nyayanidhi/photo\" role=\"link\"><div></div><div></div><div><div></div></div><div></div></a></div></div></div></div></div><div><div data-testid=\"placementTracking\"><div><button aria-describedby=\"id__czwpmbx613b\" aria-label=\"Follow @nyayanidhi\" role=\"button\" data-testid=\"1724718702585905152-follow\" type=\"button\"><div dir=\"ltr\"><span><span>Follow</span></span></div></button></div></div></div></div><div data-testid=\"UserName\"><div><div><div><div><div><div dir=\"ltr\"><span><span>Nyaya Nidhi</span><span><span></span></span></span></div></div></div><div><div tabindex=\"-1\"><div><div dir=\"ltr\"><span>@nyayanidhi</span></div></div></div></div></div></div></div></div><div><div><div dir=\"auto\" data-testid=\"UserDescription\"><span>Reforming India's Litigation/Judicial System</span></div></div></div><div><div role=\"progressbar\" aria-valuemax=\"1\" aria-valuemin=\"0\"></div></div><div><div dir=\"ltr\" data-testid=\"UserProfileHeader_Items\"><span dir=\"ltr\" role=\"presentation\" data-testid=\"UserLocation\"><span><span>Bangalore</span></span></span><a dir=\"ltr\" href=\"https://t.co/T4SV1VSFiL\" rel=\"noopener noreferrer nofollow\" target=\"_blank\" role=\"none\" data-testid=\"UserUrl\"><span>nyayanidhi.com</span></a><span dir=\"ltr\" role=\"presentation\" data-testid=\"UserJoinDate\"><span>Joined November 2023</span></span></div></div><div><div><a href=\"/nyayanidhi/following\" dir=\"ltr\" role=\"link\"><span><span>3</span></span> <span><span>Following</span></span></a></div><div><a href=\"/nyayanidhi/verified_followers\" dir=\"ltr\" role=\"link\"><span><span>427</span></span> <span><span>Followers</span></span></a></div></div></div></div><div><div aria-label=\"Loading posts by @nyayanidhi\" role=\"progressbar\" aria-valuemax=\"1\" aria-valuemin=\"0\"></div></div></div></div></div></div></div><div data-testid=\"sidebarColumn\"><div><div><div><div aria-label=\"Trending\" tabindex=\"0\"><div><div><section aria-label=\"Sign up\" role=\"region\"><div><h2 aria-level=\"2\" role=\"heading\"><div dir=\"ltr\"><span>New to X?</span></div></h2></div><div dir=\"ltr\"><span>Sign up now to get your own personalized timeline!</span></div><div><div data-testid=\"google_sign_in_container\"><div></div></div><button role=\"button\" data-testid=\"apple_sign_in_button\" type=\"button\"><div dir=\"ltr\"><span><span>Sign up with Apple</span></span></div></button><a href=\"/i/flow/signup\" role=\"link\"><div dir=\"ltr\"><span><span>Create account</span></span></div></a></div><div dir=\"ltr\">By signing up, you agree to the <a href=\"https://x.com/tos\" rel=\"noopener noreferrer nofollow\" target=\"_blank\" role=\"link\"><span>Terms of Service</span></a> and <a href=\"https://x.com/privacy\" rel=\"noopener noreferrer nofollow\" target=\"_blank\" role=\"link\"><span>Privacy Policy</span></a>, including <a href=\"https://help.x.com/rules-and-policies/twitter-cookies\" rel=\"noopener noreferrer nofollow\" target=\"_blank\" role=\"link\"><span>Cookie Use.</span></a></div></section></div></div></div></div></div></div></div></div></div></div></main></div></div></div></div></body></html>",
+      "links": [
+        "https://x.com/login",
+        "https://x.com/i/flow/signup",
+        "https://x.com/",
+        "https://x.com/nyayanidhi/photo",
+        "https://t.co/T4SV1VSFiL",
+        "https://x.com/nyayanidhi/following",
+        "https://x.com/nyayanidhi/verified_followers",
+        "https://x.com/nyayanidhi",
+        "https://x.com/nyayanidhi/with_replies",
+        "https://x.com/nyayanidhi/media",
+        "https://x.com/tos",
+        "https://x.com/privacy",
+        "https://help.x.com/rules-and-policies/twitter-cookies",
+        "https://support.x.com/articles/20170514",
+        "https://help.x.com/resources/accessibility",
+        "https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+      ],
+      "level": 1
+    }
+  ],
+  "s3Keys": {
+    "base": "results/nyayanidhi.com/2025-11-17T15:00:53.072Z",
+    "input": {
+      "pdf": "results/nyayanidhi.com/2025-11-17T15:00:53.072Z/input/original.pdf",
+      "metadata": "results/nyayanidhi.com/2025-11-17T15:00:53.072Z/input/metadata.json"
+    },
+    "scrapedData": {
+      "pdfExtracted": "results/nyayanidhi.com/2025-11-17T15:00:53.072Z/scraped-data/pdf-extracted.json",
+      "initialScrape": "results/nyayanidhi.com/2025-11-17T15:00:53.072Z/scraped-data/initial-scrape.json",
+      "scrapingPlan": "results/nyayanidhi.com/2025-11-17T15:00:53.072Z/scraped-data/scraping-plan.json",
+      "intelligentScrape": "results/nyayanidhi.com/2025-11-17T15:00:53.072Z/scraped-data/intelligent-scrape.json",
+      "pagesFolder": "results/nyayanidhi.com/2025-11-17T15:00:53.072Z/scraped-data/pages/"
+    },
+    "output": {
+      "questionnaire": "results/nyayanidhi.com/2025-11-17T15:00:53.072Z/output/questionnaire.txt",
+      "completeResults": "results/nyayanidhi.com/2025-11-17T15:00:53.072Z/output/complete-results.json"
+    }
+  },
+  "storedAt": "2025-11-17T15:02:49.088Z"
+}
